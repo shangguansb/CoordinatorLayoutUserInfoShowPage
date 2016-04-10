@@ -2,6 +2,10 @@
 This is a page used to show users information，it contains Material Design Controls
 
 ![](https://github.com/shangguansb/CoordinatorLayoutUserInfoShowPage/blob/master/screenshop1.gif)
+
+
+
+
 Berfore you  use the tool ,make sure that you add the Gradle dependency:
 ```
   dependencies {
