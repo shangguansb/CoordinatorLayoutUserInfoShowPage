@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingBottom="15dip">
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:gravity="center"
+                    android:text="我的社交"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="我关注的人"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="帖子收藏"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="关注的话题"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:gravity="center"
+                    android:text="我的社交"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="我关注的人"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="帖子收藏"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="关注的话题"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:gravity="center"
+                    android:text="我的社交"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="我关注的人"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="帖子收藏"
+                    android:textColor="@android:color/primary_text_dark_nodisable"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="340dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/my_account_but"
+                    android:text="关注的话题"
+                    android:textColor="#856"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

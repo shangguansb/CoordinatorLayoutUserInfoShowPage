@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorpure">#303841</color>
+    <color name="colorpurple">#38da74</color>
+    <color name="colortab">#66CDAA</color>
+    <color name="colorcoltitle">#FFFFFF</color>
+    <color name="colorUsername">#5C5C5C</color>
+    <color name="colortsxtintro">#858585</color>
+
+</resources>

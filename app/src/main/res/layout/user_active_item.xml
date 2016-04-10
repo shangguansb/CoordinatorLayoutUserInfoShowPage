@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dip"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+        <!--android:id="@+id/text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="28dip"-->
+        <!--android:layout_gravity="left"-->
+        <!--android:layout_marginLeft="10dip"-->
+        <!--android:layout_marginTop="5dip"-->
+        <!--android:singleLine="true"-->
+        <!--android:text="UserName"-->
+        <!--android:textColor="@color/colorUsername"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold" />-->
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:text=" 评论了:♡"
+            android:textColor="@color/colorUsername"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_common"
+            android:layout_width="wrap_content"
+            android:layout_height="28dip"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dip"
+
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="《iOS之简单瀑布流的实现》"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="13dip"
+                android:layout_height="12dip"
+                android:layout_marginLeft="18dip"
+                android:layout_marginTop="11.5dip"
+                android:alpha="0.5"
+                android:background="@drawable/leftquote" />
+
+            <TextView
+                android:layout_width="200dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="10dip"
+
+                android:ellipsize="end"
+                android:lineSpacingExtra="6dip"
+                android:maxLines="7"
+                android:minLines="2"
+
+                android:text="        瀑布流的思路就是，从上往下，那一列最短，就把下一个item放在哪一列，因此我们需要定义一个字典来记录每一列的最大y值
+每一个item都有一个attributes，因此定义一个数组来保存每一个item的attributes。
+
+我们还必须知道有多少列以及列间距、行间距、section到collectionView的边距。"
+                android:textColor="#8F8F8F" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dip">
+
+            <ImageView
+                android:id="@+id/item2img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ava5" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_common"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="50dip"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:layout_marginLeft="10dip"-->
+    <!--android:layout_marginTop="5dip"-->
+    <!--android:maxLines="4"-->
+    <!--android:text="的评论："-->
+    <!--android:textColor="@color/colorUsername"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold" />-->
+
+</LinearLayout>
