@@ -28,7 +28,8 @@ Berfore you  use the tool ,make sure that you add the Gradle dependency:
     <color name="colorcoltitle">#FFFFFF</color>
     <color name="colorUsername">#5C5C5C</color>
     <color name="colortsxtintro">#858585</color>
-    ```
+```
+  
   
   I have lefted  the interface  to use your  data or set your adapter .
   
