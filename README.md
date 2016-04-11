@@ -31,3 +31,5 @@ Berfore you  use the tool ,make sure that you add the Gradle dependency:
     ```
   
   I have lefted  the interface  to use your  data or set your adapter .
+  
+  there is  my  blog  article：http://blog.csdn.net/u012608587/article/details/51118561
