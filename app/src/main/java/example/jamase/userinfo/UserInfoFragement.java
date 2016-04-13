@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by jamase on 2016-04-08.
+ * Created by zhangning on 2016-04-08.
  */
 public class UserInfoFragement extends Fragment {
     RecyclerView mRecyclerView;
