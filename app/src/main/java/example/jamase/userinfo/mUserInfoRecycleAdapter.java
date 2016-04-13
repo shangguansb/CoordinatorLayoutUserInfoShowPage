@@ -28,7 +28,7 @@ public class mUserInfoRecycleAdapter extends RecyclerView.Adapter<RecyclerView.V
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         MyViewHolder1 mholder = (MyViewHolder1) holder;
-//        mholder.text.setText(str[position]);
+
 
     }
 
