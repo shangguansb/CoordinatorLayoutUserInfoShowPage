@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by jamase on 2016-04-09.
+ * Created by shangguansb on 2016-04-09.
  */
 public class mUserInfoRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public String[] str;
