@@ -27,6 +27,7 @@ public class UserInfoFragement extends Fragment {
         mRecyclerView.setHasFixedSize(true);
         mUserInfoRecycleAdapter madapter = new mUserInfoRecycleAdapter(s);
         mRecyclerView.setAdapter(madapter);
+    //    mUserInfoRecycleAdapter madapter = new mUserInfoRecycleAdapter(s);
         mRecyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         return root;
     }
