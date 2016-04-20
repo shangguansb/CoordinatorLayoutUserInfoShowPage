@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 /**
  * Created by zhangning on 2016-04-08.
+ * 一个简单的fragement
  */
 public class UserInfoFragement extends Fragment {
     RecyclerView mRecyclerView;
